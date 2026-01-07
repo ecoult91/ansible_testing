@@ -1,9 +1,4 @@
-#Adding changes suggested by Truong Vo
-ansible_host=192.168.68.50
-ansible_user=test-user-01
-
-ansible_host=192.168.68.64
-ansible_user=test-user-02
-
-ansible_host=192.168.68.61
-ansible_user=test-user-03
+#Tried adding changes suggested by Truong Vo. Changes failed. Possibly because I do not have a webserver. 
+test-user-01@192.168.68.50
+test-user-02@192.168.68.64
+test-user-03@192.168.68.61
