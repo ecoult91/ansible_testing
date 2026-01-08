@@ -1,4 +1,8 @@
-#Tried adding changes suggested by Truong Vo. Changes failed. Possibly because I do not have a webserver. 
-test-user-01@192.168.68.50
-test-user-02@192.168.68.64
-test-user-03@192.168.68.61
+#Adding changes to the name of each host.  
+server1 ansible_host=192.168.68.50 ansible_user=test-user-01 ansible_become_user=root
+server2 ansible_host=192.168.68.64 ansible_user=test-user-02 ansible_become_user=root
+server3 ansible_host=192.168.68.61 ansible_user=test-user-03 ansible_become_user=root
+
+#test-user-01@192.168.68.50
+#test-user-02@192.168.68.64
+#test-user-03@192.168.68.61
